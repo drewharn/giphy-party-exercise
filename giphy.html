@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Drew H Giphy Party!</title>
+</head>
+
+<body>
+<div class = "container">
+    <h1 class="text-center mt-4 mb-4">GIFS GALORE</h1>
+    <form class="form-inline d-flex justify-content-center mb-4">
+        <input type="text" id="search" name="search"
+               placeholder="Type search terms here" class="form-control mr-2" required/>
+        <input type="submit" class="btn btn-secondary" value="Search Giphy!" required/>
+        <button id="remove" class="btn btn-danger ml-2">Remove GIFS</button>
+    </form>
+    <div id="gif-area" class="row">
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="giphy.js"></script>
+</body>
+
+</html>
